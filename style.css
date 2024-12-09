@@ -1,0 +1,300 @@
+body {
+    color: whitesmoke;
+    background-color: rgb(36, 44, 36);
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(36, 44, 36);
+    padding: 1em;
+}
+.menu img {
+    height: 80px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+.menu ul li a:hover {
+    color: rgb(178, 230, 193);
+    box-shadow: 4px 2px 10px rgb(0, 0, 0);
+}
+.hero {
+    background-image: url('Pastelaria-Versailles.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2em;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-style: ridge;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.hero p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+.coffee-life {
+    margin: 3em 0;
+    text-align: center;
+}
+.coffee-life h2 {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+.coffee-life ul {
+    list-style: none;
+    font-size: 1.2em;
+    margin-bottom: 4em;
+    padding: 0;
+}
+.coffee-life li {
+    margin: 0.5em 0;
+}
+.coffee-life p {
+    font-size: 1.2em;
+}
+footer {
+    background-color: cornsilk;
+    color: black;
+    padding: 2em 0;
+    text-align: center;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-menu img {
+    height: 60px;
+}
+.footer-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+.footer-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.footer-menu ul li a:hover {
+    color: rgb(1, 75, 23);
+}
+footer p {
+    margin-top: 1em;
+}
+main {
+    padding: 2em;
+    background-color: rgb(36, 44, 36);
+}
+.carte-header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.carte-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+.carte-header p {
+    font-size: 1.2em;
+    color: #ffffff;
+}
+.carte-section {
+    margin-bottom: 4em;
+}
+.carte-section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #ffffff;
+}
+.carte-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.food-name {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #111111;
+}
+.food-description {
+    font-size: 1em;
+    color: #634b4b;
+    max-width: 500px;
+    margin-top: 0.5em;
+}
+.food-price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #27ae60;
+}
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+.about-text {
+    width: 60%;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #ffffff;
+}
+.about-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #fdfdfd;
+}
+.about-text p {
+    margin-bottom: 1em;
+}
+.about-image {
+    width: 35%;
+}
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.map-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+.google-map {
+    width: 60%;
+}
+.map-container iframe {
+    width: 50%;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+}
+.contact-form {
+    width: 30%;
+    background-color: white;
+    padding: 3em;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+}
+.contact-form h2 {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    color: #4e4d4d;
+}
+.contact-form label {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    display: block;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border: 1px solid #ffe1e1;
+    border-radius: 8px;
+    font-size: 1em;
+}
+.contact-form button {
+    background-color: #1c7541;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #219150;
+}
+
+
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero {
+        height: 50vh;
+        padding: 1em;
+    }
+    .hero h1 {
+        font-size: 2.5em;
+    }
+    .hero p {
+        font-size: 1em;
+    }
+    .footer-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .carte-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .food-price {
+        margin-top: 1em;
+    }
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-text,
+    .about-image {
+        width: 100%;
+    }
+    .map-contact {
+        flex-direction: column;
+        align-items: center;
+    }
+    .google-map,
+    .contact-form {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+    }
+}
+
